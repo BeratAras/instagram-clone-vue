@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <CustomText size="normal">Home</CustomText>
+    <CustomText size="normal">Direct</CustomText>
     <IconHome />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import CustomText from "@/components/CustomText";
 import IconHome from "@/assets/icons/home.svg";
 export default {
-  name: "Home",
+  name: "Direct",
   components: { CustomText, IconHome },
 };
 </script>
