@@ -1,15 +1,16 @@
 <template>
   <div class="home">
-      <h1>Home</h1>
     <CustomText class="a1" size="normal">Merhaba Dünya</CustomText>
+    <IconHome />
   </div>
 </template>
 
 <script>
 import CustomText from "@/components/CustomText";
+import IconHome from "@/assets/icons/home.svg";
 export default {
   name: "Home",
-  components: { CustomText },
+  components: { CustomText, IconHome },
   comments: {
     Text
   }
