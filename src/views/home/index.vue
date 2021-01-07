@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <CustomText size="normal">Home</CustomText>
-    <IconHome />
   </div>
 </template>
 
@@ -10,10 +9,9 @@
 
 <script>
 import CustomText from "@/components/CustomText";
-import IconHome from "@/assets/icons/home.svg";
 export default {
   name: "Home",
-  components: { CustomText, IconHome },
+  components: { CustomText },
 };
 </script>
 
